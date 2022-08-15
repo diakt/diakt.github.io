@@ -117,12 +117,499 @@ main {
   border-style: dashed; */
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Home */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.HOME-div {
+  margin-top: .5vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column ;
+  /* flex-wrap: nowrap; */
+  
+  max-width: 100%;
+  margin-bottom: 5vh;
+  background-color: #549FA2;
+
+  border-radius: 0.8vh;
+  
+  /* border: red;
+  border-style: solid; */
+}
+
+.HOME-div .main-image {
+  display: flex;
+  max-width: 100%;
+  border: black;
+  border-style: solid;
+
+
+}
+
+.HOME-div .main-text {
+  display: flex;
+  /* background-color: #b2cacc; */
+  /* border: blue;
+  border-style: dashed; */
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* About */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.ABOUT-main {
+  margin-top: .5vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+  max-width: 100%;
+  margin-bottom: 5vh;
+  padding-bottom: 10vh;
+
+  border: black;
+  /* border: blue; */
+  border-style: solid;
+
+
+  /* background-color: #b2cacc; */
+  /* background-color: #549966; */
+  /* background-color: #996A84; */
+  /* background-color: #006E63; */
+  background-color: #549FA2;
+  
+  
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+
+}
+
+.ABOUT-main .mid-child, #encapsulation{ /* color only */
+  /* background-color: #E6C59C; */
+  /* background-color: #b2cacc; */
+  /* background-color: #BAEEBA; */
+  /* background-color: #766688; */
+  /* background-color: #b2cacc; */
+  /* background-color: #549966; */
+  /* background-color: #88BB88; */
+  background-color: white;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  /* padding-bottom:10vh; */
+}
+
+
+/* MIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLE */
+
+
+.ABOUT-main .mid-child {
+  display: inline-block;
+  width: 60%;
+  font-size: 16px;
+  height: auto;
+
+
+  
+
+  border: black;
+  border-style: solid;
+
+  /* height: 102.7vh; */
+  margin: 1vh;
+}
+
+
+.ABOUT-main .mid-child .inner-text {
+  margin: 2%;
+
+}
+
+.ABOUT-main .thin-image {
+  display: none;
+  width: 90%;
+}
+
+
+/* LEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHT*/
+
+.ABOUT-main .left-child, .right-child{
+  display: flex;
+  width: 20%;
+  height: 70vh;
+  /* flex-shrink: 2; */
+  font-size: 14px;
+  
+}
+
+.ABOUT-main .left-child ul, .right-child ul {
+  margin: 1vh;
+  padding: 0px 0px 0px 0px;
+
+  /* height: 90vh; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.ABOUT-main .left-child .left-child-image, .right-child .right-child-image {
+  display: flex;
+
+  max-width: 90%;
+  /* max-height: 40%; */
+
+
+  border: black;
+  border-style: solid;
+}
+
+.ABOUT-main .left-child #encapsulation, .right-child #encapsulation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1vh;
+  height: auto;
+  max-width: 90%;
+
+  border: black;
+  border-style: solid;
+}
+
+.ABOUT-main .left-child .left-child-image-captions, .right-child .right-child-image-captions {
+  display: flex;
+  max-width: 90%;
+  text-align: left;
+  margin-top: 1vh;
+  
+
+
+  
+  /* border: red;
+  border-style: solid; */
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Interests */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.INTERESTS-main {
+  margin-top: .5vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 25vh;
+  
+  max-width: 100%;
+  margin-bottom: 5vh;
+
+  border: black;
+  /* border: blue; */
+  border-style: solid;
+
+  background-color: #549FA2;
+  
+  
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+
+}
+
+.INTERESTS-main .mid-child, #encapsulation{ /* color only */
+  /* background-color: #E6C59C; */
+  /* background-color: #88BB88; */
+  background-color: white;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+}
+
+
+/* MIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLE */
+
+
+.INTERESTS-main .mid-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20vh;
+
+  /* border: black;
+  border-style: solid; */
+  margin: 1vh;
+  background-color: #549FA2;
+}
+
+.INTERESTS-main .interests-title {
+  margin-top: 1vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+
+}
+
+.INTERESTS-main .interests-list {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+  /* border: blue;
+  border-style: solid; */
+  margin-top: 1vh;
+  padding: 0;
+
+  
+}
+
+.INTERESTS-main .interest-class { /* encapsulates an image and a caption */
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2vh;
+  margin: 2vh 1vw;
+
+ background-color: #113343;
+  
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+
+  /* border: black;
+  border-style: solid; */
+}
+
+.INTERESTS-main .interest-image {
+  width: 90%;
+  margin-top: 1vh;
+  margin-bottom: 0vh;
+  
+
+  /* border: black;
+  border-style: solid; */
+  
+}
+
+.INTERESTS-main .encapsulation {
+  width: 90%;
+  margin-top: 1vh;
+  margin-bottom: 0vh;
+}
+
+
+.INTERESTS-main .interest-text {
+  background-color: white;
+  padding: 1vh;
+  margin-top: 0vh;
+  margin-bottom: 1vh;
+  border: black;
+  border-style: solid;
+
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  
+}
+
+
+
+
+
+/* LEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHT*/
+
+.INTERESTS-main .left-child, .right-child{
+  display: flex;
+  width: 20%;
+  height: 70vh;
+  /* flex-shrink: 2; */
+  font-size: 14px;
+}
+
+.INTERESTS-main .left-child ul, .right-child ul {
+  margin: 1vh;
+  padding: 0px 0px 0px 0px;
+
+  /* height: 90vh; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.INTERESTS-main .left-child .left-child-image, .right-child .right-child-image {
+  display: flex;
+
+  max-width: 90%;
+  /* max-height: 40%; */
+
+
+  border: black;
+  border-style: solid;
+}
+
+.INTERESTS-main .left-child #encapsulation, .right-child #encapsulation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1vh;
+  height: auto;
+  max-width: 90%;
+
+  border: black;
+  border-style: solid;
+}
+
+.INTERESTS-main .left-child .left-child-image-captions, .right-child .right-child-image-captions {
+  display: flex;
+  max-width: 90%;
+  text-align: left;
+  margin-top: 1vh;
+
+
+  
+  /* border: red;
+  border-style: solid; */
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Projects */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.PROJECTS-main {
+  margin-top: .5vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 25vh;
+  
+  max-width: 100%;
+  margin-bottom: 5vh;
+
+  border: black;
+  /* border: blue; */
+  border-style: solid;
+
+  background-color: #549FA2;
+  
+  
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+
+}
+
+.PROJECTS-main .mid-child, .PROJECTS-main #encapsulation{ /* color only */
+  /* background-color: #E6C59C; */
+  /* background-color: #b2cacc; */
+  /* background-color: #BAEEBA; */
+  /* background-color: #766688; */
+  /* background-color: #b2cacc; */
+  /* background-color: #549966; */
+  /* background-color: #88BB88; */
+  background-color: white;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+}
+
+
+/* MIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLEMIDDLE */
+
+
+.PROJECTS-main .mid-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90%;
+  font-size: 16px;
+  padding-bottom: 40vh;
+
+  
+
+  border: black;
+  border-style: solid;
+
+  /* height: 102.7vh; */
+  margin: 1vh;
+}
 
 
 
 
 
 
+/* LEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHTLEFTRIGHT*/
+
+.PROJECTS-main .left-child, .PROJECTS-main .right-child{
+  display: flex;
+  width: 20%;
+  height: 70vh;
+  /* flex-shrink: 2; */
+  font-size: 14px;
+}
+
+.PROJECTS-main .left-child ul, .PROJECTS-main .right-child ul {
+  margin: 1vh;
+  padding: 0px 0px 0px 0px;
+
+  /* height: 90vh; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.PROJECTS-main .left-child .left-child-image, .PROJECTS-main .right-child .right-child-image {
+  display: flex;
+
+  max-width: 90%;
+  /* max-height: 40%; */
+
+
+  border: black;
+  border-style: solid;
+}
+
+.PROJECTS-main .left-child #encapsulation, .PROJECTS-main .right-child #encapsulation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1vh;
+  height: auto;
+  max-width: 90%;
+
+  border: black;
+  border-style: solid;
+}
+
+.PROJECTS-main .left-child .left-child-image-captions, .PROJECTS-main .right-child .right-child-image-captions {
+  display: flex;
+  max-width: 90%;
+  text-align: left;
+  margin-top: 1vh;
+
+
+  
+  /* border: red;
+  border-style: solid; */
+}
 
 
 
@@ -153,15 +640,6 @@ footer{
 
   
 }
-
-
-
-
-
-
-
-
-
 
 
 

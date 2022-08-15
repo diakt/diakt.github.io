@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -10,23 +10,23 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <header>
-        <Header/>
-      </header>
-      
+      <body>
+        <header>
+          <Header />
+        </header>
 
-      <main className="main">
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about/" element={<About />} />
           <Route path="/interests/" element={<Interests />} />
-          <Route path="/projects/" element={<About />} />
+          <Route path="/projects/" element={<Projects />} />
         </Routes>
-      </main>
 
-      <footer className="footer">
-        <Footer/>
-      </footer>
+        <footer className="footer">
+          <Footer />
+        </footer>
+      </body>
     </div>
   );
 }
