@@ -17,7 +17,8 @@ function Header() {
                 <Link to="/projects/">
                     <h1>Projects</h1>
                 </Link>
-                <a href='wikipedia.org' target="_blank"rel="noreferrer">
+                
+                <a href='https://drive.google.com/file/d/1l0iC3prYQL5YyKeUDYWLwUfF0c0o9-5k/view?usp=sharing' target="_blank"rel="noreferrer">
                     <h1>Resume</h1>
                 </a>
             </nav>
