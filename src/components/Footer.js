@@ -25,7 +25,6 @@ function Footer() {
         <ul className="footer-directory-icons">
             <a className="footer-directory-image" href="https://github.com/Joeyryanbridges" target="_blank" rel="noreferrer" >
                 <img
-                    
                     src={require("../logos/github.png")}
                     id="github-logo"
                     alt="GitHub logo. Click to see my GitHub account.">

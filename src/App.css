@@ -113,7 +113,7 @@ main {
 
 .HOME-div .main-image {
   display: flex;
-  max-width: 100%;
+  max-width: 99.85%;
   border-bottom: black;
   border-style: solid;
 
@@ -377,8 +377,8 @@ main {
   margin-bottom: 5vh;
   padding-bottom: 10vh;
 
-  border: red;
-  border-style: solid;
+  /* border: red;
+  border-style: solid; */
 
   background-color: #549FA2;
   border-bottom-left-radius: 1vh;
@@ -394,7 +394,7 @@ main {
 
   border-bottom-left-radius: 1vh;
   border-bottom-right-radius: 1vh;
-  width: 60%;
+  width: 100%;
   font-size: 16px;
   height: auto;
   /* border: blue;
@@ -403,6 +403,7 @@ main {
 }
 
 .PROJECTS-main .mid-child .projects-list {
+  width: 100%;
   margin: 0 auto;
   padding: 0px;
   display: flex;
@@ -496,18 +497,28 @@ footer{
 
 
 .footer-directory-icons {
-  width: max(350px, 30%);
+  width: max(300px, 25%);
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   margin: 0px 0px 0px 0px;
-  margin-right: max(1.5%, 25px);
+  margin-right: max(1%, 20px);
+  /* border: red;
+  border-style: solid; */
 
 }
 
 
 .footer-directory-image {
-  margin: 0 min(3%, 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 0 max(1%, 15px);
+  /* border: blue;
+  border-style: solid; */
+  padding: 0px;
   
 }
 
@@ -533,12 +544,18 @@ footer{
 #spotify-logo {
   width: 2.7%;
   min-width: 35px; 
+  padding: 0;
+  margin: 0;
+  /* border: red;
+  border-style: solid; */
 }
 
 
 #scihub-logo {
   width: 2.7%;
   min-width: 37px; 
+  /* border: red;
+  border-style: solid; */
 }
 
 
