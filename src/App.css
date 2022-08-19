@@ -225,9 +225,9 @@ main {
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .INTERESTS-main {
+  display: flex;
   margin-top: .5vh;
   width: 80%;
-  display: flex;
   justify-content: center;
   align-items: flex-start;
   padding-bottom: 25vh;
@@ -235,6 +235,7 @@ main {
   margin-bottom: 5vh;
   border: black;
   border-style: solid;
+  
   background-color: #549FA2;
   border-bottom-left-radius: 1vh;
   border-bottom-right-radius: 1vh;
@@ -367,19 +368,17 @@ main {
 .PROJECTS-main {
   display: flex;
   flex-direction: row;
-  margin-top: .5vh;
-  width: 80%;
-  display: flex;
   justify-content: flex;
   align-items: flex-start;
+  margin-top: .5vh;
+  width: 80%;
   min-width: 80%;
   max-width: 100%;
   margin-bottom: 5vh;
   padding-bottom: 10vh;
-
-  /* border: red;
-  border-style: solid; */
-
+  border: black;
+  border-style: solid;
+  
   background-color: #549FA2;
   border-bottom-left-radius: 1vh;
   border-bottom-right-radius: 1vh;
