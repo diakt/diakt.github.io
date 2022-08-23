@@ -368,7 +368,7 @@ main {
 .PROJECTS-main {
   display: flex;
   flex-direction: row;
-  justify-content: flex;
+  justify-content: center;
   align-items: flex-start;
   margin-top: .5vh;
   width: 80%;
@@ -385,8 +385,19 @@ main {
 
 }
 
+.proj-left-child, .proj-right-child{
+  display: flex;
+  width: 10vw;
+  height: 100vh;
+  font-size: 14px;
+  /* border: blue;
+  border-style: solid; */
+  
+}
 
-.PROJECTS-main .mid-child {
+
+
+.proj-mid-child { 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -399,70 +410,79 @@ main {
   /* border: blue;
   border-style: solid; */
   margin: 1vh;
+  padding: 0;
 }
 
-.PROJECTS-main .mid-child .projects-list {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0px;
+
+.project-class {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  margin-bottom: 2vh;
+  min-width: 62vw;
+  max-width: 62vw;
+
+  padding: 0;
+
   background: white;
-  /* border: yellow;
+  /* border: green;
   border-style: solid; */
   border-bottom-left-radius: 1vh;
   border-bottom-right-radius: 1vh;
 }
 
-.PROJECTS-main .mid-child .projects-list .project-class {
+
+
+.project-text{
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  max-width:40%;
+  min-height: 100%;
+  /* border: black;
+  border-style: dashed; */
 
+  padding: 0;
+}
+
+.project-encapsulation{
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  /* border: red;
+  border-style: dotted; */
+  margin-top: 1vh;
+}
+
+.project-title{
+  margin: auto 0;
+}
+
+
+
+
+.project-image{
+  
   /* border: red;
   border-style: solid; */
+  max-width:60%;
+  border-bottom-right-radius: 1vh;
+  padding: 0;
 }
 
 
 
 
-.PROJECTS-main .left-child, .right-child{
-  display: flex;
-  width: 20%;
-  height: 70vh;
-  font-size: 14px;
-  
-}
 
 
 
 
-.PROJECTS-main .left-child .left-child-image, .right-child .right-child-image {
-  display: flex;
-  max-width: 90%;
-  border: black;
-  border-style: solid;
-}
 
-.PROJECTS-main .left-child #encapsulation, .right-child #encapsulation {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 1vh;
-  height: auto;
-  max-width: 90%;
 
-  border: black;
-  border-style: solid;
-}
 
-.PROJECTS-main .left-child .left-child-image-captions, .right-child .right-child-image-captions {
-  display: flex;
-  max-width: 90%;
-  text-align: left;
-  margin-top: 1vh;
-}
 
 
 
