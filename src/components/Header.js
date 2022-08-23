@@ -17,8 +17,8 @@ function Header() {
                 <Link to="/projects">
                     <h1>Projects</h1>
                 </Link>
-                
-                <a href='https://drive.google.com/file/d/1V0yBCVN5FtLdeZsYakd2Lvq8J1Hd0wch/view?usp=sharing' target="_blank"rel="noreferrer">
+                {/* npm run deploy */}
+                <a href='https://drive.google.com/file/d/1uyQsZRmV34eRAq5cpp2UnkLXuabBsTkD/view?usp=sharing' target="_blank"rel="noreferrer">
                     <h1>Resume</h1>
                 </a>
             </nav>
