@@ -19,7 +19,7 @@ function Header() {
                 </Link>
                 {/* npm run deploy */}
                 <a href='https://drive.google.com/file/d/17mxJH0tiRCGdCH4rDKFb5FV_Ja-znFv0/view?usp=sharing' target="_blank"rel="noreferrer">
-                    <h1>Resume</h1>
+                    <h1>Resume</h1> 
                 </a>
             </nav>
 
