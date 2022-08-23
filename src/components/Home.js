@@ -6,7 +6,7 @@ function Home() {
             <div className='mid-child'>
                 <img
                 class="main-image"
-                alt="People yelling loudly after winning a rowing regatta"
+                alt="As a quick aside, if you are using a screenreader, I have tried to make this website accessible. I apologize deeply if I have done so poorly. The image is of a boat of rowers, including myself, yelling after winning a national championship."
                 src={require("../images/ira-win.jpg" )}
                 />
                 <h2 class="main-text"> Welcome to my page.</h2>
