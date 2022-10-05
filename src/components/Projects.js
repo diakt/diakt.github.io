@@ -12,6 +12,23 @@ function Projects() {
                 <section class="project-class">
                     <article className="project-text">
                         <div className='project-encapsulation'>
+                            <h3 class="project-title">Markov Snakes and Ladders</h3>
+                            <a class="project-link" href='https://markovsnakes.netlify.app' target="_blank" rel="noreferrer"> markovsnakes.netlify.app</a>
+
+                            <p className="project-description">
+                                An application of Markov chain processes to solve for expected stopping time (average number of rolls) for the game Snakes and Ladders.
+                                A count-measuring mockup of snakes and ladders, coupled with a page for explaining some fairly tractable features of Markov Chains.
+                            </p>
+                            <p className="project-description">
+                                Built with Typescript and React.js.
+                            </p>
+                        </div>
+                    </article>
+                    <img className="project-image" src={require("../images/markov.png")} />
+                </section>
+                <section class="project-class">
+                    <article className="project-text">
+                        <div className='project-encapsulation'>
                             <h3 class="project-title">Dangerous Lighting</h3>
                             <a class="project-link" href='https://dangerouslighting.netlify.app' target="_blank" rel="noreferrer"> dangerouslighting.netlify.app</a>
 
@@ -51,23 +68,7 @@ function Projects() {
                     <img className="project-image" src={require("../images/hopital.png")} />
                 </section>
 
-                <section class="project-class">
-                    <article className="project-text">
-                        <div className='project-encapsulation'>
-                            <h3 class="project-title">Markov Snakes and Ladders</h3>
-                            <a class="project-link" href='https://markovsnakes.netlify.app' target="_blank" rel="noreferrer"> markovsnakes.netlify.app</a>
-
-                            <p className="project-description">
-                                An application of Markov chain processes to solve for expected stopping time (average number of rolls) for the game Snakes and Ladders.
-                                A count-measuring mockup of snakes and ladders, coupled with a page for explaining some fairly tractable features of Markov Chains.
-                            </p>
-                            <p className="project-description">
-                                Built with Typescript and React.js.
-                            </p>
-                        </div>
-                    </article>
-                    <img className="project-image" src={require("../images/markov.png")} />
-                </section>
+                
 
 
 
