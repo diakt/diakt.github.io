@@ -53,7 +53,7 @@ function Projects() {
                     <article className="project-text">
                         <div className='project-encapsulation'>
                             <h3 class="project-title">Hopital</h3>
-                            <a class="project-link" href='https://hopital-deluxe.herokuapp.com/' target="_blank" rel="noreferrer"> hopital-deluxe.netlify.app</a>
+                            <a class="project-link" href='https://hopital-deluxe.herokuapp.com/' target="_blank" rel="noreferrer"> hopital-deluxe.herokuapp.app</a>
 
                             <p className="project-description">
                                 A hospital scheduling management system which allows healthcare stakeholders to create, edit, and update medical appointments.
