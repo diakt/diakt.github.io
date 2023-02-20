@@ -4,7 +4,8 @@ function NewInterests(props) {
   return (
     <Container style={{ margin: "7vh auto" }}>
       <Row>
-        <Col style={{ border: "1px red", borderStyle: "solid" }}>
+        {/* <Col style={{ border: "1px red", borderStyle: "solid" }}> */}
+        <Col>
           <img
             className="interest-image"
             src={require("../images/chopper-burn-norcal.jpg")}
@@ -20,7 +21,8 @@ function NewInterests(props) {
             examine risk in maybe a systems theoretic context.
           </p>
         </Col>
-        <Col style={{ border: "1px red", borderStyle: "solid" }}>
+        {/* <Col style={{ border: "1px red", borderStyle: "solid" }}> */}
+        <Col>
           <img
             className="interest-image"
             src={require("../images/mpb.jpg")}
@@ -40,7 +42,8 @@ function NewInterests(props) {
         </Col>
       </Row>
       <Row>
-        <Col style={{ border: "1px red", borderStyle: "solid" }}>
+        {/* <Col style={{ border: "1px red", borderStyle: "solid" }}> */}
+        <Col>
           <img
             className="interest-image"
             src={require("../images/EARC_heat.JPG")}
@@ -54,7 +57,8 @@ function NewInterests(props) {
             within the sport.
           </p>
         </Col>
-        <Col style={{ border: "1px red", borderStyle: "solid" }}>
+        {/* <Col style={{ border: "1px red", borderStyle: "solid" }}> */}
+        <Col>
           <img
             className="interest-image"
             src={require("../images/EARC-champs.JPG")}
