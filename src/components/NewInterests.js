@@ -4,15 +4,15 @@ function NewInterests(props) {
   return (
     <Container style={{ margin: "7vh auto" }}>
       <Row>
-        <Col>
+        <Col style={{ border: "1px red", borderStyle: "solid" }}>
           <img
             className="interest-image"
             src={require("../images/chopper-burn-norcal.jpg")}
             alt="A slithery little friend"
-            style={{ width: "90%" }}
+            style={{ height: "40vh", marginBottom: "2vh" }}
           />
 
-          <p className="interest-text" style={{ width: "80%" }}>
+          <p className="interest-text" style={{ width: "75%" }}>
             I’m interested in environmental hazards and risk management.
             Wildfire will worsen by several orders of magnitude over the next
             fifty years in the Pacific Northwest and Russia. I enjoy using
@@ -20,15 +20,15 @@ function NewInterests(props) {
             examine risk in maybe a systems theoretic context.
           </p>
         </Col>
-        <Col>
+        <Col style={{ border: "1px red", borderStyle: "solid" }}>
           <img
             className="interest-image"
             src={require("../images/mpb.jpg")}
             alt="A mountain pine beetle"
-            style={{ width: "90%" }}
+            style={{ height: "40vh", marginBottom: "2vh" }}
           />
 
-          <p className="interest-text" style={{ width: "80%" }}>
+          <p className="interest-text" style={{ width: "75%" }}>
             I specifically find bark beetles really interesting. The term bark
             beetle isn't a classification as much as a four-letter word for any
             of a class of ~6,000 insects that predate trees. They're currently
@@ -40,29 +40,29 @@ function NewInterests(props) {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col style={{ border: "1px red", borderStyle: "solid" }}>
           <img
             className="interest-image"
             src={require("../images/EARC_heat.JPG")}
             alt="Rowing in a shell, dressed like an idiot."
-            style={{ width: "90%" }}
+            style={{ height: "40vh", marginBottom: "2vh" }}
           />
 
-          <p className="interest-text" style={{ width: "80%" }}>
+          <p className="interest-text" style={{ width: "75%" }}>
             I was a decent rower. In large part, I became a math major because
             of an interesting combinatorial optimization problem I encountered
             within the sport.
           </p>
         </Col>
-        <Col>
+        <Col style={{ border: "1px red", borderStyle: "solid" }}>
           <img
             className="interest-image"
             src={require("../images/EARC-champs.JPG")}
             alt="EARC champions"
-            style={{ width: "90%" }}
+            style={{ height: "40vh", marginBottom: "2vh" }}
           />
 
-          <p className="interest-text" style={{ width: "80%" }}>
+          <p className="interest-text" style={{ width: "75%" }}>
             A good day at Eastern Sprints. Not much more to say.
           </p>
         </Col>
