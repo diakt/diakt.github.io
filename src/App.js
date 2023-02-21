@@ -21,7 +21,6 @@ function App() {
         <header>
           <NewHeader />
         </header>
-
         <main>
           <Routes>
             <Route exact path="/" element={<NewHome />} />
@@ -30,7 +29,6 @@ function App() {
             <Route exact path="/projects" element={<NewProjects />} />
           </Routes>
         </main>
-
         <footer className="footer">
           <NewFooter />
         </footer>
